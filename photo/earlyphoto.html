@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+<link href="/Gorshok/styles.css" rel="stylesheet">
+    <title>Фото Миши. Детство и юность.</title>
+    <style>
+    .row > div {
+      padding: 0 4px !important;
+}
+img {
+    margin-top: 8px;
+    vertical-align: middle;  
+}
+</style>
+  </head>
+  <body>
+    <div id="header"></div>
+    <h1>Фото Миши. Детство и юность.</h1>
+    <div class="container-fluid">
+        <div class="row">
+    <div class="col-sm-2">
+      <div class="btn-group-vertical">
+<button type="button" class="btn btn-outline-secondary"><a href="/Gorshok/photo/earlyphoto.html">Ранние фото</a></button>
+</div>
+    </div>
+<div class="col-sm-10">
+<div class="container-fluid">
+<div class="row"> 
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <img src="/Gorshok/img/det.jpg"  class="img-fluid">
+    <img src="/Gorshok/img/kolledj.jpg"  class="img-fluid">
+    <img src="/Gorshok/photo/lehaimisha.jpg"  class="img-fluid">
+    <img src="/Gorshok/photo/roditeli-mihaila-gorsheneva-919.jpg"  class="img-fluid">
+    
+
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <img src="/Gorshok/photo/960.webp"  class="img-fluid">
+    <img src="/Gorshok/photo/b368bcc5d77a44eb40540dc109fd67bc.webp"  class="img-fluid">
+    <img src="/Gorshok/photo/m1.jpg"  class="img-fluid">
+    <img src="/Gorshok/photo/m2.jpg"  class="img-fluid">
+    <img src="/Gorshok/photo/vzroslie.jpg"  class="img-fluid">
+  </div>  
+  
+</div>
+</div>
+</div>
+
+      <!-- Content here -->
+    </div>
+    <script>
+      // Header
+      fetch("/Gorshok/header.html")
+        .then((response) => response.text())
+        .then((html) => (document.getElementById("header").innerHTML = html));
+
+      //   // Загрузка подвала...
+      //   fetch('footer.html')
+      //     .then(response => response.text())
+      //     .then(html => document.getElementById('footer').innerHTML = html);
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

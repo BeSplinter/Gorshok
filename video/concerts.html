@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+<link href="/Gorshok/styles.css" rel="stylesheet">
+    <title>Видео. Концерты</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <h1>Видео. Концерты</h1>
+    <div class="container-fluid">
+        <div class="row">
+    <div class="col-sm-2">
+      <div class="btn-group-vertical">
+<button type="button" class="btn btn-outline-secondary"><a href="/Gorshok/video/concerts.html">Концерты</a></button>
+  </div>
+
+    </div>
+    
+<div class="col-sm-10">
+  <ul class="list-group">
+  <li class="list-group-item"><a href="https://youtu.be/CCd10A2ZclQ?si=cIOmnP3UdfpM91bl">Король и шут. Live клуб "Спартак" 16.06.1999</a></li>
+    <li class="list-group-item"><a href="https://youtu.be/gIbB6dogXb0?si=T9r72bVapayXlpSM">Король и шут. Юбилейный 17.02.2001</a></li>
+    <li class="list-group-item"><a href="https://youtu.be/H2G7HYYKJco?si=QOB7u_G4wR7gClmg">Король и Шут. НАШЕСТВИЕ 2002</a></li>
+    <li class="list-group-item"><a href="https://youtu.be/fhM6EkO-fQE?si=7MbkX6kBLYCzrWQ6">Король и Шут CK Олимпийский 18.12.2003</a></li>
+    <li class="list-group-item"><a href="https://youtu.be/JFUawBGHAtQ?si=OpazehjsIzZK_LKm">Король и шут. 28.04.12, Лужники</a></li>
+    <li class="list-group-item"><a href="https://youtu.be/Sd4UkpjO2I8?si=i266xR_7vdztKCIK">Последнее выступление Михаила Горшенёва. НАШЕСТВИЕ 2013</a></li>
+  </ul>
+  
+</div>
+
+  </div>
+    </div>
+       </div>
+    <script>
+      // Header
+      fetch("/Gorshok/header.html")
+        .then((response) => response.text())
+        .then((html) => (document.getElementById("header").innerHTML = html));
+
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
