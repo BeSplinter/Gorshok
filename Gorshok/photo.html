@@ -15,7 +15,7 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
-<link href="styles.css" rel="stylesheet">
+<link href="/Gorshok/styles.css" rel="stylesheet">
     <title>Фото</title>
   </head>
   <body>
@@ -44,7 +44,7 @@
       </div>
     <script>
       // Header
-      fetch("Gorshok/header.html")
+      fetch("/Gorshok/header.html")
         .then((response) => response.text())
         .then((html) => (document.getElementById("header").innerHTML = html));
     </script>
