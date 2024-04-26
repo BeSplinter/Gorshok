@@ -46,7 +46,6 @@ body {
 .text-muted {
   font-size: 20px;
 }
-
-/* .card-text {
-  font-size: small;
-} */
+html {
+  overflow-x: hidden !important;
+}
